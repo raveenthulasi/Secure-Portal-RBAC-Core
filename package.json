@@ -1,0 +1,26 @@
+{
+  "name": "secure-rbac-portal",
+  "version": "1.0.0",
+  "description": "Enterprise Secure Role-Based Access Control Portal with Vue 3, Express, MySQL, and JWT",
+  "scripts": {
+    "init:db": "cd backend && npm run init-db",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "test:backend": "cd backend && npm test",
+    "test:full": "cd backend && npm run test:full",
+    "start": "cd backend && npm start",
+    "test": "cd backend && npm test"
+  },
+  "keywords": [
+    "rbac",
+    "vue3",
+    "express",
+    "mysql",
+    "jwt",
+    "security"
+  ],
+  "author": "RBAC Portal Team",
+  "license": "ISC"
+}
+
